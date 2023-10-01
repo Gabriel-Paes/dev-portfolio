@@ -1,0 +1,25 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "description": "my-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Paes/dev-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Gabriel-Paes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Paes/dev-portfolio/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Paes/dev-portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
