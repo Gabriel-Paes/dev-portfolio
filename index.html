@@ -6,10 +6,19 @@
     <link href="style.css" rel="stylesheet" />
     <title>Gabriel Paes</title>
   </head>
-  <body>
+  <body class="bg-background">
+    <header class="fixed min-w-full bg-background">
+      <nav class="flex items-center">
+        <h1 class="m-12 text-2xl text-primary">Gabriel Paes</h1>
+        <a class="" href="">item-1</a>
+        <a class="mx-6" href="">item-2</a>
+        <a class="" href="">item-3</a>
+      </nav>
+    </header>
+
     <div class="min-h-screen flex items-center bg-background">
       <div class="container mx-auto my-auto">
-        <h1 class="text-3xl font-bold text-primary">Hello world!</h1>
+        <h1 class="text-7xl font-bold text-primary">Hello world!</h1>
         <button
           class="rounded-full py-2 px-6 bg-primary text-background font-bold"
         >
@@ -18,16 +27,49 @@
       </div>
     </div>
 
+    <section class="min-h-screen text-center sm:text-left">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam harum
+        perferendis quos odio earum eum laudantium cumque non repudiandae natus!
+        Ullam voluptatibus iure dolore, illum tempora est facere fuga
+        consequatur!
+      </p>
+    </section>
+
     <div class="min-h-screen flex items-center justify-center bg-background">
       <h1 class="text-3xl font-bold text-primary">Hello world!</h1>
     </div>
-    <div
-      class="fixed bottom-0 right-0 bg-primary origin-center -rotate-180 py-4 px-1 font-fira-code"
-      style="writing-mode: vertical-lr"
-    >
-      Powered by
-      <a href="https://github.com/Gabriel-Paes" target="_blank">@GPaes</a>
-    </div>
-    <script src="mode.js"></script>
+
+    <!-- <section class="min-h-screen flex flex-col justify-center">
+      <h2 class="text-2xl mb-6">Quem sou...</h2>
+      <p class="w-[600px] text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+        perspiciatis soluta earum ullam fuga repellat? Magni provident veritatis
+        cum, quas nesciunt, voluptates nihil eveniet deserunt voluptatum, sunt
+        labore nisi. Deserunt!
+      </p>
+    </section> -->
+
+    <section class="min-h-screen flex justify-center">
+      <h2 class="text-2xl mb-6">Portfolio</h2>
+    </section>
+
+    <footer>
+      <p>
+        Copyright &copy; <span class="current-year"></span> Todos os direitos
+        reservados.
+      </p>
+
+      <div
+        class="fixed bottom-0 right-0 bg-primary origin-center -rotate-180 py-4 px-1 font-fira-code"
+        style="writing-mode: vertical-lr"
+      >
+        <p class="text-background">
+          Powered by
+          <a href="https://github.com/Gabriel-Paes" target="_blank"> @GPaes </a>
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>

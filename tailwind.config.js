@@ -13,6 +13,8 @@ module.exports = {
         current: "currentColor",
         background: colors.slate[900],
         primary: "#02ee25",
+        secondary: "#02cbee",
+        text: colors.white,
       },
       backgroundImage: {
         "gradient-blue-pink": "linear-gradient(to right, #3490dc, #f6993f)",
